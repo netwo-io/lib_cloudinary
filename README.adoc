@@ -1,0 +1,26 @@
+===  Cloudinary SQL client
+
+=== Features
+
+- [x] Build URLs for Cloudinary supported assets
+- [x] Generate signature for uploading assets to Cloudinary
+
+=== Requirement
+
+- https://www.postgresql.org/docs/current/pgcrypto.html[pgcrypto must be loaded in public schema]
+
+=== Usage
+
+.examples/sign_url.sql
+[source,plpgsql]
+----
+include::./examples/sign_url.sql[]
+----
+
+=== API
+
+https://sqldoc.io/github.com/netwo-io/lib_cloudinary.git
+
+=== SQL Conventions
+
+Code is written https://github.com/fgribreau/sql-convention/[following standard SQL-convention].
